@@ -1,8 +1,6 @@
 const usernameField = document.querySelector('#usernameField');
 const feedBackArea = document.querySelector(".invalid_feedback");
 usernameField.addEventListener("keyup", (e) => {
-    console.log('4555555', 456666);
-
 
     const usernameVal = e.target.value;
 
